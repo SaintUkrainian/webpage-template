@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="assets/styles/layout.css" />
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        />
+        <title>Contact</title>
+    </head>
+    <body class="p-3 mb-2 bg-secondary text-white">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">3 layout</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./media.html">Media</a></li>
+                    <li><a href="./slider.html">Slider</a></li>
+                    <li><a href="./table.html">Table</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <div class="row">
+                <div class="col">
+                    <form class="form-col">
+                        <h1>User details</h1>
+                        <label for="full-name">Your full name</label>
+                        <input
+                            type="text"
+                            placeholder="Full name"
+                            id="full-name"
+                            class="form-control"
+                        />
+                        <label for="birthday">Your birthday</label>
+                        <input type="date" id="birthday" class="form-control" />
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <label for="inputState">Gender</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-9">
+                                <label for="phone">Phone</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="phone"
+                                    placeholder="Phone number"
+                                />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Bio</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us about yourself"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    </form>
+                </div>
+
+                <div class="col">
+                    <form class="form-col">
+                        <h1>Account details</h1>
+                        <label for="full-name">Username</label>
+                        <input
+                            type="text"
+                            placeholder="Username"
+                            id="full-name"
+                            class="form-control"
+                        />
+                        <label for="full-name">Email</label>
+                        <input
+                            type="text"
+                            placeholder="Email"
+                            id="full-name"
+                            class="form-control"
+                        />
+                        <label for="full-name">Password</label>
+                        <input
+                            type="text"
+                            placeholder="Password"
+                            id="full-name"
+                            class="form-control"
+                        />
+                        <label for="full-name">Confirm password</label>
+                        <input
+                            type="text"
+                            placeholder="Confrim password"
+                            id="full-name"
+                            class="form-control"
+                        />
+                        <div class="form-check mt-2">
+                            <input class="form-check-input" type="checkbox" value="" id="accept">
+                            <label class="form-check-label" for="accept">
+                              Accept terms and conditions
+                            </label>
+                          </div>
+                          <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
