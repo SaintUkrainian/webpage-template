@@ -1,26 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="assets/styles/layout.css" />
-    <title>Table</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">3 layout</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./media.html">Media</a></li>
-                <li><a href="./slider.html">Slider</a></li>
-                <li><a href="./table.html">Table</a></li>
-                <li><a href="./about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-</body>
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="assets/styles/layout.css" />
+        <title>Table</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">3 layout</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./media.html">Media</a></li>
+                    <li><a href="./slider.html">Slider</a></li>
+                    <li><a href="./table.html">Table</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container mt-5">
+            <h1>Table</h1>
+            <table class="table table-dark table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                        <th scope="col">Something</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td rowspan="6">Some text</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr>
+                        <th scope="col" colspan="">4</th>
+                        <td colspan="3" scope="col">Hey</td>
+                    </tr>
+                    <tr>
+                        <th scope="col" colspan="2">yoo</th>
+                        <td rowspan="2">Some text</td>
+                        <td rowspan="2">Some text</td>
+                        
+                    </tr>
+                    <tr>
+                        <th scope="row" scope="row">djkldsjdlkjf</th>
+                        <td>Yoo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
 </html>
