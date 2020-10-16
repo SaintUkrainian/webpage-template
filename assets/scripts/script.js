@@ -24,7 +24,7 @@ var slide1 = new Slide(
 var slide2 = new Slide(
     "Angular.js",
     "Angular",
-    "./assets/images/angular.jpg",
+    "./assets/images/ang.png",
     "https://angular.io/"
 );
 
@@ -43,7 +43,7 @@ function buildSlider() {
             slideArray[i].id +
             "' class='singleSlide' style='background-image:url(" +
             slideArray[i].background +
-            ");'>" +
+            "); background-size: cover; background-position: center'>" +
             "<div class='slideOverlay'>" +
             "<h1 id=>" +
             slideArray[i].title +
