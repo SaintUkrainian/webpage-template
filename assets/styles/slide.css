@@ -1,0 +1,129 @@
+main {
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid salmon;
+    background-color: navajowhite;
+    color: salmon;
+    cursor: pointer;
+    font-size: larger;
+    outline: none;
+}
+
+.buttons button:hover {
+    background-color: rgba(236, 126, 114, 0.301);
+}
+
+a.slider {
+    padding: 10px 25px;
+    background-color: #4CA74C;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+ }
+
+ #mySlider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 300px;
+ }
+
+ #mySlider h1 {
+     color: salmon;
+     background-color: bisque;
+     width: fit-content;
+     padding: 20px;
+     box-shadow: 0 2px 4px rgb(189, 108, 108);
+ }
+ 
+ .singleSlide {
+ 
+    background-size: cover;
+    height: 300px;
+    position: absolute;
+    left: 100%;
+    width: 100%;
+    top: 0px;
+ }
+ 
+ 
+ #sliderNav {
+    position: relative;
+    top: -175px;
+ }
+ 
+ #sliderNav:hover { cursor: pointer;    }
+ 
+ #sliderPrev {
+    position: relative;
+    float: left;
+    left: 50px;
+ }
+ 
+ #sliderNext {
+    position: relative;
+    float: right;
+    right: 50px;
+ }
+ 
+ @-webkit-keyframes slideIn {
+    100% { left: 0; }
+ }
+ 
+ @keyframes slideIn {
+    100% { left: 0; }
+ }
+ 
+ .slideInRight {
+    left: -100%;
+    -webkit-animation: slideIn 1s forwards;
+    animation: slideIn 1s forwards;
+ }
+ 
+ .slideInLeft {
+    left: 100%;
+    -webkit-animation: slideIn 1s forwards;
+    animation: slideIn 1s forwards;
+ }
+ 
+ @-webkit-keyframes slideOutLeft {
+    100% { left: -100%; }
+ }
+ 
+ @keyframes slideOutLeft {
+    100% { left: -100%; }
+ }
+ 
+ .slideOutLeft {
+    -webkit-animation: slideOutLeft 1s forwards;
+    animation: slideOutLeft 1s forwards;
+ }
+ 
+ @-webkit-keyframes slideOutRight {
+    100% { left: 100%; }
+ }
+ 
+ @keyframes slideOutRight {
+    100% { left: 100%; }
+ }
+ 
+ .slideOutRight {
+    -webkit-animation: slideOutRight 1s forwards;
+    animation: slideOutRight 1s forwards;
+ }
+ 
