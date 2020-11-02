@@ -43,7 +43,7 @@ function buildSlider() {
             slideArray[i].id +
             "' class='singleSlide' style='background-image:url(" +
             slideArray[i].background +
-            "); background-size: cover; background-position: center'>" +
+            "); background-size: cover; background-position: center;'>" +
             "<div class='slideOverlay'>" +
             "<h1 id=>" +
             slideArray[i].title +
